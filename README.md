@@ -17,8 +17,8 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 
 ## Model Show
 <figure class="half">
-    <img width="50%" src="pictures/model_brief.png">
-    <img width="50%" src="pictures/model_detailed.PNG">
+    <img width="45%" src="pictures/model_brief.png">
+    <img width="45%" src="pictures/model_detailed.PNG">
 </figure>
 
 
