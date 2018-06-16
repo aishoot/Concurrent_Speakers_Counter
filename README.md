@@ -13,7 +13,7 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 
 
 ## Reference Paper & Code
-As we all know, it is pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. Thanks for the author's paper and code and it helps me a lot.
+As we all know, it is pretty hard to solve the cocktail-party problem. This is ***the ﬁrst study on data-driven speaker count estimation*** and the first step to crack the problem. Thanks for the author's paper and code and it helps me a lot.
 * __Title__: Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation
 * __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël
