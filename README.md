@@ -1,6 +1,6 @@
 # Concurrent Speakers Counter
 Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem. The project is based on a Bidirectional Long Short-Term Memory (BLSTM) Recurrent Neural Network (RNN) which takes into account a past and future temporal context.<br>
-![](pictures/time_in_seconds.png)
+<img width="78%" height="78%" src="pictures/time_in_seconds.png"/>
 
 ## Model Summary
 Layer |  Layer Name | Input Shape | Output Shape 
@@ -17,7 +17,7 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 
 ## Model Show
 <img width="360" align="left" src="pictures/model_brief.png">
-<img width="360" align="left" src="pictures/model_detailed.PNG">
+<img width="360" align="right" src="pictures/model_detailed.PNG">
 
 
 
