@@ -18,4 +18,5 @@ As we all know, it is pretty hard to solve the cocktail-party problem. This is *
  Speaker Count Estimation
 * __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël
  A. P. Habets
-* __Preprint__: [arXiv 1712.04555](http://arxiv.org/abs/1712.04555)
+* __Accepted__: ICASSP2018, Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada
+* __Code__: [CountNet](https://github.com/faroit/CountNet)
