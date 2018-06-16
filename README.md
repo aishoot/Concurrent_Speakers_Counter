@@ -12,11 +12,11 @@ the Fourth Layer | maxpooling1d | (?, 500, 80) | (?, 250, 80)
 the Fifth Layer | flatten | (?, 250, 80) | (?, 20000) 
 the Sixth Layer | dense | (?, 20000) | (?, 11) 
 the Seventh Layer | activation | (?, 11) | (?, 11) 
-<img width="30%" align=right src="pictures/model_detailed.PNG">
+
 "?" represents the number of samples.<br> 
 
 ## Model Show
-<img width="30%" src="pictures/model_brief.png">
+<img width="100%" src="pictures/model_brief.png">
 
 
 ## Reference Paper & Code
