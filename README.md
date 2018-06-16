@@ -18,6 +18,19 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 ## Model Show
 <img width="65%" src="pictures/model_brief.png">
 
+## Dependency Library
+* [librosa](https://librosa.github.io/)
+* [soundfile](https://pysoundfile.readthedocs.io)
+* Keras(my test version: 2.1.1)
+* Tensorflow(my test version: 1.4.0)
+* Anaconda3(Contains Python3.5+)
+
+## Usage
+Run the command line script:
+```
+python predict_speakers_count.py examples/5_speakers.wav
+```
+or run the file "predict_speakers_count.ipynb".
 
 ## Reference Paper & Code
 As we all know, it is pretty hard to solve the cocktail-party problem. This is ***the ﬁrst study on data-driven speaker count estimation*** and the first step to crack the problem. Thanks for the author's paper and code and it helps me a lot.
@@ -25,6 +38,6 @@ As we all know, it is pretty hard to solve the cocktail-party problem. This is *
 * __Title__: Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation
 * __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël A. P. Habets
-* __Accepted__: ICASSP2018, Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada
+* __Published__: ICASSP2018, Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada
 * __Code__: https://github.com/faroit/CountNet
 * __Dataset__: [LibriCount, a dataset for speaker count estimation](https://zenodo.org/record/1216072#.WyS9AoozaUk)
