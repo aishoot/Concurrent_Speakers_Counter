@@ -21,9 +21,10 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 
 ## Reference Paper & Code
 As we all know, it is pretty hard to solve the cocktail-party problem. This is ***the ﬁrst study on data-driven speaker count estimation*** and the first step to crack the problem. Thanks for the author's paper and code and it helps me a lot.
-* __Accepted__: ICASSP2018, Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada
+* __Homepage: [2017-CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet)
 * __Title__: Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation
-* __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël
- A. P. Habets
-* __Code__: [CountNet](https://github.com/faroit/CountNet)
+* __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël A. P. Habets
+* __Accepted__: ICASSP2018, Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada
+* __Code__: https://github.com/faroit/CountNet
+* __Dataset: [LibriCount, a dataset for speaker count estimation](https://zenodo.org/record/1216072#.WyS9AoozaUk)
