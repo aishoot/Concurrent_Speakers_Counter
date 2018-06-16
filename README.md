@@ -3,7 +3,6 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 <img width="60%" height="60%" src="pictures/time_in_seconds.png"/>
 
 ## Model Summary
-<img width="30%" align=right src="pictures/model_detailed.PNG">
 Layer |  Layer Name | Input Shape | Output Shape 
 :-: | :-: | :-: | :-: 
 the First Layer  | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
@@ -13,7 +12,7 @@ the Fourth Layer | maxpooling1d | (?, 500, 80) | (?, 250, 80)
 the Fifth Layer | flatten | (?, 250, 80) | (?, 20000) 
 the Sixth Layer | dense | (?, 20000) | (?, 11) 
 the Seventh Layer | activation | (?, 11) | (?, 11) 
-
+<img width="30%" align=right src="pictures/model_detailed.PNG">
 "?" represents the number of samples.<br> 
 
 ## Model Show
