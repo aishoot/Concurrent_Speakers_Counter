@@ -21,16 +21,16 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 ## Dependency Library
 * [librosa](https://librosa.github.io/)
 * [soundfile](https://pysoundfile.readthedocs.io)
-* Keras(my test version: 2.1.1)
-* Tensorflow(my test version: 1.4.0)
-* Anaconda3(Contains Python3.5+)
+* Keras (my test version: 2.1.1)
+* Tensorflow (my test version: 1.4.0)
+* Anaconda3 (Contains Python3.5+)
 
 ## Usage
 Run the command line script:
 ```
 python predict_speakers_count.py examples/5_speakers.wav
 ```
-or run the file "predict_speakers_count.ipynb".
+or run the file "predict_speakers_count.ipynb" in proper sequence.
 
 ## Reference Paper & Code
 As we all know, it is pretty hard to solve the cocktail-party problem. This is ***the ﬁrst study on data-driven speaker count estimation*** and the first step to crack the problem. Thanks for the author's paper and code and it helps me a lot.
