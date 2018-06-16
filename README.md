@@ -44,4 +44,4 @@ As we all know, it's pretty hard to solve the cocktail-party problem. This is **
 * __Dataset__: [LibriCount, a dataset for speaker count estimation](https://zenodo.org/record/1216072#.WyS9AoozaUk)
 
 ## Follow-up Work
-I will work on speech separation for a long time. You can follow fork this repository if interested.
+I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
