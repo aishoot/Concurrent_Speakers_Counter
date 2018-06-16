@@ -34,7 +34,7 @@ or run the file "predict_speakers_count.ipynb" in proper sequence.
 
 ## Reference Paper & Code
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1216072.svg)](https://doi.org/10.5281/zenodo.1216072)<br>
-As we all know, it is pretty hard to solve the cocktail-party problem. This is ***the ﬁrst study on data-driven speaker count estimation*** and the first step to crack the problem. Thanks for the author's paper and code and it helps me a lot.
+As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code and it helps me a lot.*
 * __Homepage__: [2017-CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet)
 * __Title__: Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation
@@ -42,3 +42,6 @@ As we all know, it is pretty hard to solve the cocktail-party problem. This is *
 * __Published__: ICASSP2018, Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada
 * __Code__: https://github.com/faroit/CountNet
 * __Dataset__: [LibriCount, a dataset for speaker count estimation](https://zenodo.org/record/1216072#.WyS9AoozaUk)
+
+## Follow-up Work
+I will work on speech separation for a long time. You can follow fork this repository if interested.
