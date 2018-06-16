@@ -16,7 +16,7 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 "?" represents the number of samples.<br> 
 
 ## Model Show
-<img width="70%" src="pictures/model_brief.png">
+<img width="65%" src="pictures/model_brief.png">
 
 
 ## Reference Paper & Code
