@@ -16,7 +16,7 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 "?" represents the number of samples.<br> 
 
 ## Model Show
-<figure class="half">
+<figure>
     <img width="30%" src="pictures/model_brief.png">
     <img width="30%" src="pictures/model_detailed.PNG">
 </figure>
