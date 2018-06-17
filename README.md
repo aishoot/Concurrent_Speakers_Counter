@@ -1,5 +1,5 @@
 # Concurrent Speakers Counter
-Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem. The project is based on a Bidirectional Long Short-Term Memory (BLSTM) Recurrent Neural Network (RNN) which takes into account a past and future temporal context.<br><br>
+Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem which is based on a Bidirectional Long Short-Term Memory (BLSTM) which takes into account a past and future temporal context.<br><br>
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
 ## Model Summary
@@ -39,7 +39,7 @@ As we all know, it's pretty hard to solve the cocktail-party problem. This is **
 * __Title__: Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation
 * __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël A. P. Habets
-* __Published__: ICASSP2018, Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada
+* __Published__: ICASSP2018 (Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada)
 * __Code__: https://github.com/faroit/CountNet
 * __Dataset__: [LibriCount, a dataset for speaker count estimation](https://zenodo.org/record/1216072#.WyS9AoozaUk)
 
