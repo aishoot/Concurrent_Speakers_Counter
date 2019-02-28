@@ -40,6 +40,26 @@ It is called LibriCount10 0dB Dataset.
 * 16bits, 16kHz, mono
 * 11440 Samples, 832.5 MB
 
+The format of json file is as follows:
+```
+[
+    {
+        "sex": "F",
+        "activity": [[0, 51076], [51396, 55400], [56681, 80000]], 
+        "speaker_id": 1221
+    },
+    {
+        "sex": "F",
+        "activity": [[0, 51877], [56201, 80000]],
+        "speaker_id": 3570
+    },
+    {
+        "sex": "M",
+        "activity": [[0, 15681], [16161, 68213], [73498, 80000]], 
+        "speaker_id": 5105
+    }
+]
+```
 
 ## Reference Paper & Code
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1216072.svg)](https://doi.org/10.5281/zenodo.1216072)<br>
