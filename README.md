@@ -33,7 +33,7 @@ python predict_speakers_count.py examples/5_speakers.wav
 or run the file "predict_speakers_count.ipynb" in proper sequence.
 
 ## Dataset
-It is called [LibriCount10 0dB Dataset] (https://zenodo.org/record/1216072#.WyS9AoozaUk).
+It is called [LibriCount10 0dB Dataset](https://zenodo.org/record/1216072#.WyS9AoozaUk).
 * contains a simulated cocktail party environment of [0..10] speakers
 * mixed with 0dB SNR
 * 5 seconds of recording
