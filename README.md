@@ -32,6 +32,14 @@ python predict_speakers_count.py examples/5_speakers.wav
 ```
 or run the file "predict_speakers_count.ipynb" in proper sequence.
 
+## Dataset
+It is called LibriCount10 0dB Dataset.
+* contains a simulated cocktail party environment of [0..10] speakers
+* mixed with 0dB SNR
+* 5 seconds of recording
+
+
+
 ## Reference Paper & Code
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1216072.svg)](https://doi.org/10.5281/zenodo.1216072)<br>
 As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which helps me a lot.*
