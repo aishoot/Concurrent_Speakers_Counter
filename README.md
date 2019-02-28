@@ -40,7 +40,7 @@ It is called LibriCount10 0dB Dataset.
 * 16bits, 16kHz, mono
 * 11440 Samples, 832.5 MB
 
-The format of json file is as follows:
+The annotation provides information about the speakers sex, their unique speaker_id, and vocal activity within the mixture recording in samples. The format of json file (3 speakers) is as follows:
 ```
 [
     {
