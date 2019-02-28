@@ -33,7 +33,7 @@ python predict_speakers_count.py examples/5_speakers.wav
 or run the file "predict_speakers_count.ipynb" in proper sequence.
 
 ## Dataset
-It is called LibriCount10 0dB Dataset.
+It is called [LibriCount10 0dB Dataset] (https://zenodo.org/record/1216072#.WyS9AoozaUk).
 * contains a simulated cocktail party environment of [0..10] speakers
 * mixed with 0dB SNR
 * 5 seconds of recording
@@ -62,15 +62,10 @@ The annotation provides information about the speakers sex, their unique speaker
 ```
 
 ## Reference Paper & Code
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1216072.svg)](https://doi.org/10.5281/zenodo.1216072)<br>
-As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which help me a lot.*
-* __Homepage__: [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet)
-* __Title__: Classification vs. Regression in Supervised Learning for Single Channel
- Speaker Count Estimation
-* __Authors__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël A. P. Habets
-* __Published__: ICASSP2018 (Apr 15, 2018 – Apr 20, 2018 in Calgary, Canada)
-* __Code__: https://github.com/faroit/CountNet
-* __Dataset__: [LibriCount, a dataset for speaker count estimation](https://zenodo.org/record/1216072#.WyS9AoozaUk)
+As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and [code](https://github.com/faroit/CountNet) which help me a lot. Their homepage is [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet).*
+* __Paper 1__: 
+* __Paper 2__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler, Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel
+ Speaker Count Estimation (ICASSP2018)
 
 ## Follow-up Work
 I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
