@@ -37,7 +37,8 @@ It is called LibriCount10 0dB Dataset.
 * contains a simulated cocktail party environment of [0..10] speakers
 * mixed with 0dB SNR
 * 5 seconds of recording
-
+* 16bits, 16kHz, mono
+* 11440 Samples, 832.5 MB
 
 
 ## Reference Paper & Code
