@@ -63,7 +63,7 @@ The format of json file is as follows:
 
 ## Reference Paper & Code
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1216072.svg)](https://doi.org/10.5281/zenodo.1216072)<br>
-As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which helps me a lot.*
+As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which help me a lot.*
 * __Homepage__: [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet)
 * __Title__: Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation
