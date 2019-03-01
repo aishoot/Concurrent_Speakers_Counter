@@ -62,7 +62,7 @@ The annotation provides information about the speakers sex, their unique speaker
 ```
 
 ## Reference Paper
-As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and [code](https://github.com/faroit/CountNet) which help me a lot. Their homepage is [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet).*
+As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which help me a lot. Their homepage is [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet).*
 * __Paper 1__: Simon Leglaive, Romain Hennequin and Roland Badeau. Singing voice detection with deep recurrent neural networks (ICASSP 2015).
 * __Paper 2__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler and Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation (ICASSP2018).
