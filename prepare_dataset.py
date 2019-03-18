@@ -10,7 +10,7 @@ import scipy.io as sio
 import numpy as np
 
 # 读取数据列表
-DATA_PATH = "/mnt/hd8t/pchao/LibriCount10-0dB/test/"   # 服务器下所有数据，语音和json文件一共11440条，单独的5720条
+DATA_PATH = "/mnt/hd8t/LibriCount10-0dB/test/"   # 服务器下所有数据，语音和json文件一共11440条，单独的5720条
 wavfiles = [wav for wav in os.listdir(DATA_PATH) if wav[-3:] == "wav"]   # 所有.wav文件，格式为list
 
 # 读取音频，并确保数据第一维大于等于500
