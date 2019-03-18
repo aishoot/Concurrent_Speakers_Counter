@@ -2,12 +2,8 @@
 Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem which is based on a Bidirectional Long Short-Term Memory (BLSTM) which takes into account a past and future temporal context.<br><br>
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
-## 1. My Model
-<div align="left">
-<img width="20%" src="pictures/my_model.png">
-</div>
 
-## 2. The paper's model
+## 1. The paper's model
 Layer |  Layer Name | Input Shape | Output Shape 
 :-: | :-: | :-: | :-: 
 the First Layer  | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
@@ -21,6 +17,13 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 "?" represents the number of samples.<br> 
 
 <img width="65%" src="pictures/model_brief.png">
+
+
+## 2. My Model
+<div align="left">
+<img width="20%" src="pictures/my_model.png">
+</div>
+
 
 ## 3. Dependency Library
 * [librosa](https://librosa.github.io/)
