@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # @Time    : Created on 2019/3/10 9:11 PM
-# @Author  : Chao Peng, EECS, Peking University
 # @Purpose : 使用CNN网络结构训练并测试所有音频数据
 
 import keras
