@@ -2,7 +2,10 @@
 Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem which is based on a Bidirectional Long Short-Term Memory (BLSTM) which takes into account a past and future temporal context.<br><br>
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
-## The paper's model
+## 1. My Model
+<img width="65%" src="pictures/cnn.png">
+
+## 2. The paper's model
 Layer |  Layer Name | Input Shape | Output Shape 
 :-: | :-: | :-: | :-: 
 the First Layer  | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
@@ -17,14 +20,14 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 
 <img width="65%" src="pictures/model_brief.png">
 
-## Dependency Library
+## 3. Dependency Library
 * [librosa](https://librosa.github.io/)
 * [soundfile](https://pysoundfile.readthedocs.io)
 * Keras (my test version: 2.1.1)
 * Tensorflow (my test version: 1.4.0)
 * Anaconda3 (Contains Python3.5+)
 
-## Dataset
+## 4. Dataset
 It is called [LibriCount10 0dB Dataset](https://zenodo.org/record/1216072#.WyS9AoozaUk).
 * contains a simulated cocktail party environment of [0..10] speakers
 * mixed with 0dB SNR
@@ -53,11 +56,11 @@ The annotation provides information about the speakers sex, their unique speaker
 ]
 ```
 
-## Reference Paper
+## 5. Reference Paper
 As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which help me a lot. Their homepage is [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet).*
 * __Paper 1__: Simon Leglaive, Romain Hennequin and Roland Badeau. Singing voice detection with deep recurrent neural networks (ICASSP 2015).
 * __Paper 2__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler and Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation (ICASSP2018).
 
-## Follow-up Work
+## 6. Follow-up Work
 I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
