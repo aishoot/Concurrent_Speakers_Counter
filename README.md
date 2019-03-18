@@ -3,7 +3,7 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
 ## 1. My Model
-<div align="center">
+<div align="left">
 <img width="20%" src="pictures/cnn.png">
 </div>
 
@@ -59,7 +59,7 @@ The annotation provides information about the speakers sex, their unique speaker
 ```
 
 ## 5. Reference Paper
-As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper and code which help me a lot. Their homepage is [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet).*
+As we all know, it's pretty hard to solve the cocktail-party problem. This is **the ﬁrst study on data-driven speaker count estimation** and the first step to crack the problem. *Thanks for the author's paper[Paper 2] and code which help me a lot. Their homepage is [AudioLabs Erlangen CountNet](https://www.audiolabs-erlangen.de/resources/2017-CountNet).*
 * __Paper 1__: Simon Leglaive, Romain Hennequin and Roland Badeau. Singing voice detection with deep recurrent neural networks (ICASSP 2015).
 * __Paper 2__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler and Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation (ICASSP2018).
