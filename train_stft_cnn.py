@@ -68,10 +68,10 @@ x = layers.Dropout(0.25)(x)
 
 x = layers.Flatten()(x)
 x = layers.Dense(256, activation='relu')(x)
-x = layers.Dropout(0.5)(x)  # 最初:0.1
+x = layers.Dropout(0.1)(x)
 
 x = layers.Dense(64, activation='relu')(x)
-x = layers.Dropout(0.5)(x)  # 最初:0.2
+x = layers.Dropout(0.2)(x)
 output_tensor = layers.Dense(num_classes, activation='softmax')(x)
 
 model = Model(input_tensor, output_tensor)
