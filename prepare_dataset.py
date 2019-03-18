@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # @Time    : Created on 2019/2/28 8:04 PM
-# @Author  : Chao Peng, EECS, Peking University
 # @Purpose : 将所有wav文件提取幅度谱后保存为.mat文件
 
 import os
