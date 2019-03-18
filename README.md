@@ -3,9 +3,9 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
 ## 1. My Model
-
-<img width="30%" src="pictures/cnn.png" div align=center />
-
+<div align="center">
+<img width="25%" src="pictures/cnn.png">
+</div>
 
 ## 2. The paper's model
 Layer |  Layer Name | Input Shape | Output Shape 
