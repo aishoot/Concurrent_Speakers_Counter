@@ -2,7 +2,7 @@
 Estimate the number of concurrent speakers from single channel mixtures to crack the "cocktail-party” problem which is based on a Bidirectional Long Short-Term Memory (BLSTM) which takes into account a past and future temporal context.<br><br>
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
-## Model Summary
+## The paper's model
 Layer |  Layer Name | Input Shape | Output Shape 
 :-: | :-: | :-: | :-: 
 the First Layer  | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
@@ -15,7 +15,6 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 
 "?" represents the number of samples.<br> 
 
-## Model Show
 <img width="65%" src="pictures/model_brief.png">
 
 ## Dependency Library
@@ -24,13 +23,6 @@ the Seventh Layer | activation | (?, 11) | (?, 11)
 * Keras (my test version: 2.1.1)
 * Tensorflow (my test version: 1.4.0)
 * Anaconda3 (Contains Python3.5+)
-
-## Usage
-Run the command line script:
-```
-python predict_speakers_count.py examples/5_speakers.wav
-```
-or run the file "predict_speakers_count.ipynb" in proper sequence.
 
 ## Dataset
 It is called [LibriCount10 0dB Dataset](https://zenodo.org/record/1216072#.WyS9AoozaUk).
