@@ -86,7 +86,7 @@ history = model.fit(X_train, y_train_hot, validation_data=[X_test, y_test_hot],
 model.save("models/stft_cnn_%sepoch.h5"%(epoch))
 
 # 评价在所有数据集上的得分
-score = model.evaluate(X_test, y_test_hot, batch_size=batch_size)
+score = model.evaluate(wavfiles, y_hot, batch_size=batch_size)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
 
