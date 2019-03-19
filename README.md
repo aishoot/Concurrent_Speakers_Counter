@@ -66,6 +66,6 @@ As we all know, it's pretty hard to solve the cocktail-party problem. This is **
 * __Paper 1__: Simon Leglaive, Romain Hennequin and Roland Badeau. Singing voice detection with deep recurrent neural networks (ICASSP 2015).
 * __Paper 2__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler and Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation (ICASSP2018).
-
+ 
 ## 6. Follow-up Work
 I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
