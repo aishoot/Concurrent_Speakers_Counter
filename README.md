@@ -3,7 +3,7 @@ Estimate the number of concurrent speakers from single channel mixtures to crack
 <img width="80%" height="80%" src="pictures/time_in_seconds.png"/>
 
 
-## 1. The paper's model
+## 1. The model of the paper
 Layer |  Layer Name | Input Shape | Output Shape 
 :-: | :-: | :-: | :-: 
 the First Layer  | BLSTM_1 | (?, 500, 201) | (?, 500, 60) 
