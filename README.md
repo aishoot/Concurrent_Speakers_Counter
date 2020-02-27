@@ -67,5 +67,9 @@ As we all know, it's pretty hard to solve the cocktail-party problem. This is **
 * __Paper 2__: Fabian-Robert Stöter, Soumitro Chakrabarty, Bernd Edler and Emanuël A. P. Habets. Classification vs. Regression in Supervised Learning for Single Channel
  Speaker Count Estimation (ICASSP2018).
  
+ ## 6. Recommended links
+ * [Coherence-Based Source Counter](https://github.com/JacobD10/CoherenceBasedSourceCounter)
+ * [Speaker Count Estimation using Deep Neural Networks](https://github.com/Piteryo/SpeakerCount)
+ 
 ## 6. Follow-up Work
 I will work on speech separation for a long time. You can fork this repository if interested and pay close attention to my recent study.
